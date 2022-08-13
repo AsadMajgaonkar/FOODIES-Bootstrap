@@ -5,15 +5,14 @@ body{
 .fa-check{
     color: #A82C48;
 }
+
+#home{
+    margin: 120px 0px 0px 0px;
+}
+
 .top-banner{
-    /* height: 100vh; */
-    height: 80vh;
-}
-.nav-space{
-    height: 20vh;
-}
-nav{
-    height: 20vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .nav-bar{
@@ -147,8 +146,6 @@ p{
 }
 
 /* TESTIMONIAL */
-
-
 .testimonials{
     background-color: #A82C48;
     height: fit-content;
@@ -201,11 +198,9 @@ p{
 .carr-review{
     color:gray;
     font-size: 16px;
-    /* font-weight: 700; */
 }
 
 /* FAQ */
-
 .FAQ-heading{
     font-size: 40px;
     color: #43121D;
@@ -218,10 +213,6 @@ p{
     background-attachment: fixed;
     margin: 100px 0px 100px 0px;
 }
-
-/* .parallax-div{
-    padding: 0px 80px 0px 80px;
-} */
 
 .parallax-text{
     color: white;
@@ -267,7 +258,7 @@ p{
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px),screen and (max-height: 576px){
     h1{
         font-size: 38px;
     }
