@@ -203,6 +203,7 @@ p{
     font-size: 16px;
     /* font-weight: 700; */
 }
+
 /* FAQ */
 
 .FAQ-heading{
@@ -210,6 +211,41 @@ p{
     color: #43121D;
 }
 
+/* PARALLAX EFFECT */
+.parallax-container{
+    background: url("assets/bg/bg-3.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 100px 0px 100px 0px;
+}
+
+.parallax-div{
+    padding: 0px 80px 0px 80px;
+}
+
+.parallax-text{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.parallax-btn{
+    font-weight: 600;
+    border: 3px solid #A82C48;
+}
+
+.parallax-btn:hover{
+    color:#A82C48;
+    border: 3px solid #A82C48;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+/* NEXT SECTION */
+.next-section
+{
+    height: 100vh;
+}
 
 
 @media screen and (max-width: 576px){
