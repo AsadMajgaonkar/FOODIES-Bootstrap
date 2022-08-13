@@ -250,6 +250,22 @@ p{
     margin: 100px 0px 100px 0px;
 }
 
+/* FOOTER */
+.footer{
+    background-color: #A82C48;
+}
+
+.footer-links-div a{
+    color: rgb(231, 231, 231);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#copyright-text{
+    color: rgb(231, 231, 231);
+    margin: 0;
+}
+
 
 @media screen and (max-width: 576px){
     h1{
