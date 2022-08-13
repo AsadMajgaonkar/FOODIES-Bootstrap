@@ -242,9 +242,12 @@ p{
 }
 
 /* NEXT SECTION */
-.next-section
-{
-    height: 100vh;
+#subscribe-btn{
+    border-radius: 0;
+}
+
+.subscribe-section{
+    margin: 100px 0px 100px 0px;
 }
 
 
